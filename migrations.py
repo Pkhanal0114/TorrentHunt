@@ -71,7 +71,7 @@ if input1 == 'y':
          (ownerId       INTEGER PRIMARY KEY,
          warned         INTEGER DEFAULT 0,
          lastMessage   INTEGER DEFAULT 0,
-         blockTill     INTEGER DEFAULT 0
+         blockTill     TEXT DEFAULT 0
          );''')
 
     print('[+] Table flood created successfully.')
